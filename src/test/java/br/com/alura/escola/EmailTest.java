@@ -1,9 +1,11 @@
-package escola;
+package br.com.alura.escola;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.jupiter.api.Test;
+
+import br.com.alura.escola.aluno.Email;
 
 public class EmailTest {
 

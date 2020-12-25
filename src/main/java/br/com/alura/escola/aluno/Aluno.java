@@ -1,4 +1,4 @@
-package escola;
+package br.com.alura.escola.aluno;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,6 +10,13 @@ public class Aluno {
 	private Email email;
 
 	private List<Telefone> telefones = new ArrayList<Telefone>();
+
+	public Aluno(CPF cpf, String nome, Email email) {
+		super();
+		this.cpf = cpf;
+		this.nome = nome;
+		this.email = email;
+	}
 
 	public void adicionarTelefone(String ddd, String numero) {
 		this.telefones.add(new Telefone(ddd, numero));
