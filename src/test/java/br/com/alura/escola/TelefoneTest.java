@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.jupiter.api.Test;
 
-import br.com.alura.escola.aluno.Telefone;
+import br.com.alura.escola.dominio.aluno.Telefone;
 
 public class TelefoneTest {
 	@Test
